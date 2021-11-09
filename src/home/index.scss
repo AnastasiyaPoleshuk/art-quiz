@@ -1,0 +1,46 @@
+
+.container{
+    width: 360px;
+    height: 640px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    background: url(/assets/svg/logo.svg) no-repeat;
+    align-items: center;
+    margin: 0 auto;
+    height: 50%;
+}
+
+.artist-quiz {
+    background: url(/assets/png/artists-quiz.png) no-repeat;
+    filter: drop-shadow(-10px 15px 30px rgba(0, 0, 0, 0.25));
+}
+.title-artist {
+    background: rgba(255, 255, 255, 0.75);
+    width: 330px;
+    height: 39.95px;
+    margin-left: 15px;
+    margin-top: 49%;
+}
+.pictures-quiz {
+    background: url(/assets/png/pictures-quiz.png) no-repeat;
+    filter: drop-shadow(-10px 15px 30px rgba(0, 0, 0, 0.25));
+}
+.title-pictures {
+    background: rgba(255, 255, 255, 0.75);
+    width: 330px;
+    height: 39.95px;
+    margin-left: 15px;
+    margin-top: 49%;
+}
+
+img{
+    width: 75%;
+    height: 75%;
+    margin: 4% 0% 0% 25%;
+    background: none;
+}
