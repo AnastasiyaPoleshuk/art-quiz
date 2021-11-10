@@ -37,14 +37,8 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png| jpe?g|svg)$/,
-        use: [{
-            loader: "url-loader",
-            options: {
-              limit: 5000
-            }
-          }
-        ]
+        test: /\.(png|jpeg|gif|jpg|svg)$/,
+        type: 'asset/resource'
       },
       
     ],
