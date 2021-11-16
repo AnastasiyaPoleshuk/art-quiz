@@ -1,10 +1,9 @@
-
-let settingsState = [
-    {
+class SettingsState {
+    constructor() {
+            this.timeGame = false;
+        }
         // "volume": "false",
-        timeGame: false
+}
 
-    }
-]
 
-export default settingsState
+export const settingsState = new SettingsState()

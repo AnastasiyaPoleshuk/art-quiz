@@ -2,12 +2,14 @@ import htmlToElement from "../utils/htmlToElement";
 import "./index.scss"
 import Settings from "./index.html"
 import redirect from "../index";
-import state from '/settingsState.js';
+import { settingState } from '/settingsState.js';
+
+
 
 const settings = htmlToElement(Settings);
 const SaveBtn = settings.querySelector('.save');
 
-SaveBtn.addEventListener('click', (pageName) =>{
+SaveBtn.addEventListener('click', (pageName) => {
     pageName = 'home'
     redirect(pageName);
 });
@@ -31,16 +33,12 @@ SaveBtn.addEventListener('click', (pageName) =>{
 
 const checkbox = settings.querySelector('.checkbox');
 
-checkbox.onchange =  function(){
-    if(state[0].timeGame == false){
-        state[0].timeGame = true;
-        console.log(state[0].timeGame);
-    } else{
-        state[0].timeGame = false;
+checkbox.onchange = function() {
+    if (settingState.timeGame == false) {
+        settingState.timeGame = true;
+    } else {
+        settingState.timeGame = false;
     }
 }
 
 export default settings;
-
-
-
