@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @mixin main-txt {
     font: {
         family: 'Montserrat';
@@ -12,6 +13,8 @@
 }
 $main-color: #660033;
 
+=======
+>>>>>>> 51046672738936db727ad06c3f49fef5ae7c9385
 .Art-categories-wrap {
     width: 360px;
     height: 640px;
@@ -22,6 +25,7 @@ $main-color: #660033;
     background: none;
 }
 
+<<<<<<< HEAD
 .title-art{
     @include main-txt;
     line-height: 29px;
@@ -120,4 +124,28 @@ article{
 .card-img {
     width: 98px;
     height: 106px;
+=======
+.btn-box {
+}
+
+.home {
+}
+
+.score {
+}
+
+.cards-box {
+}
+
+.card {
+}
+
+.number {
+}
+
+.card-title {
+}
+
+.card-img {
+>>>>>>> 51046672738936db727ad06c3f49fef5ae7c9385
 }

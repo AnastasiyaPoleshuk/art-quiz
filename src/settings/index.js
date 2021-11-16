@@ -2,7 +2,10 @@ import htmlToElement from "../utils/htmlToElement";
 import "./index.scss"
 import Settings from "./index.html"
 import redirect from "../index";
+<<<<<<< HEAD
 import state from '/settingsState.js';
+=======
+>>>>>>> 51046672738936db727ad06c3f49fef5ae7c9385
 
 const settings = htmlToElement(Settings);
 const SaveBtn = settings.querySelector('.save');
@@ -12,6 +15,7 @@ SaveBtn.addEventListener('click', (pageName) =>{
     redirect(pageName);
 });
 
+<<<<<<< HEAD
 
 // let sound = new Audio('/assets/sound/correct-answer.mp3');
 
@@ -44,3 +48,6 @@ export default settings;
 
 
 
+=======
+export default settings;
+>>>>>>> 51046672738936db727ad06c3f49fef5ae7c9385
