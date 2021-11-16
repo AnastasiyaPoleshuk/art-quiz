@@ -5,7 +5,7 @@ import redirect from "../index";
 import images from "../images";
 import bg from "/assets/img/0.jpg";
 import { settingState } from '/settingsState.js';
-// import showTimer from '../utils/showtimer';
+import { timer } from '../utils/timer';
 
 const qestionsPage = htmlToElement(QestionsPage);
 const HBtn = qestionsPage.querySelector('.home-btn');
@@ -37,22 +37,11 @@ answercollection.forEach(element => {
 
 
 
-// if(state[0].timeGame == false){
-let timer = 30;
-console.log(timer);
-
-function showTime() {
-
-    time.textContent = `0:${timer}`;
-    timer--;
+if (settingState.timeGame == false) {
+    const timer = new Timer(time, 30);
     console.log(timer);
-    if (timer === -1) {
-        time.style.color = 'red';
-        return
-    }
-    setTimeout(showTime, 1000);
-}
-// };
+
+};
 
 
 window.addEventListener('DOMContentLoaded', showTime)
