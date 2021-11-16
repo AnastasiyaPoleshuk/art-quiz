@@ -1,0 +1,32 @@
+<div class="wrapp">
+    <div class="logoS"></div>
+    <div class="title">Settings</div>
+    <div class="volume-box">
+        <img src="/assets/png/valume.png" alt="ARTISTS QUIZ" class="img-volume">
+        <div class="volume-bar">
+            <img src="/assets/svg/volume-off.svg" alt="volume-off" class="volume-off">
+            <!-- <input 
+            type="range" 
+            id="progress-bar" 
+            min="0" 
+            max="" 
+            value="0" 
+            onchange="soundVolume()"
+        /> -->
+        <input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
+        </div>
+        <div class="volume-title">Volume</div>
+    </div>
+    <div class="time-game-box">
+        <img src="/assets/png/clock.png" alt="ARTISTS QUIZ" class="img-volume">
+        <div class="time-game">
+            <input type="checkbox" class="checkbox">
+            <div class="checkbox-title">on/off</div>
+        </div>
+        <div class="time-game-title">Time game</div>
+    </div>
+    <div class="btn-box">
+        <button class="save">Save</button>
+        <button class="Default">Default</button>
+    </div>
+</div>

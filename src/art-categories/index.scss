@@ -1,0 +1,123 @@
+@mixin main-txt {
+    font: {
+        family: 'Montserrat';
+        style: normal;
+        weight: normal;
+        size: 24px;
+    }
+    text-transform: uppercase;
+    color: #660033;
+    background: none;
+    text-align: center;
+}
+$main-color: #660033;
+
+.Art-categories-wrap {
+    width: 360px;
+    height: 640px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: none;
+}
+
+.title-art{
+    @include main-txt;
+    line-height: 29px;
+    width: 155px;
+    height: 25px;
+    margin-left: 12%;
+    margin-top: 10%;
+}
+
+.btn-box {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    display: flex;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: $main-color;
+    border: 1px solid $main-color;
+
+    &:hover{
+        background: rgba(102, 0, 51, 0.5);
+        border-radius: 20%;
+        transition: 1s;
+    }
+}
+
+p{
+    @include main-txt;
+    font-size: 18px;    
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+    width: 60px;
+    height: 20px;
+}
+
+.btnImg{
+    background: none;
+    width: 40px;
+    height: 35px;
+}
+
+.cards-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: none;
+}
+
+.card {
+    width: 115px;
+    height: 150px;
+    background: #FFFFFF;
+    opacity: 0.5;
+    margin: 2px;
+}
+
+.card-active {
+    width: 100px;
+    height: 150px;
+    background: #FFFFFF;
+    opacity: 1;
+    margin: 1px;
+}
+
+article{
+    height: 40px; 
+    background: none;
+}
+
+.number {
+    @include main-txt;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    height: 40px;
+    width: 20px;
+    margin-left: 5%;
+}
+
+.score{
+    height: 40px;
+    width: 20px;
+}
+
+.card-img {
+    width: 98px;
+    height: 106px;
+}

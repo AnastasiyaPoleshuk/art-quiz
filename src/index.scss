@@ -4,4 +4,78 @@
     background: linear-gradient(#DAE3E8, rgba(255, 255, 255, 0.75));
     margin: 0px;
     padding: 0px;
+    // border: 1px solid black;
 }
+
+.second-footer{
+    width: 360px;
+    height: 50px;
+    background: none;
+}
+
+.footer-line{
+    margin: 0 auto;
+    background: white;
+    width: 90%;
+    height: 1px;
+    border-radius: 20px;
+    opacity: 0.1;
+  }
+  
+  .footer-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    list-style-type: none;
+    background: none;
+  }
+  
+  .footer-git{
+    width: 30%;
+    background: none;
+  }
+  
+  .footer-rss{
+    width: 30%;
+    background: none;
+  }
+  
+  .footer-year{
+    width: 30%;
+    padding-right: 3%; 
+    background: none; 
+  }
+  
+  .github{
+    width: 45%;
+    margin: 0%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    background: none; 
+  }
+  
+  .RSS{
+    width: 70%;
+    margin: 0%;
+    background: none; 
+  }
+  
+  .year-wrapp{
+    width: 100%;
+    background: none; 
+  }
+
+  .about{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  a{
+    background: none;
+  }
+
+
+
+
