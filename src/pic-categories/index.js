@@ -20,9 +20,5 @@ card.forEach(element => {
     });
 });
 
-// ScoreBtn.addEventListener('click', (pageName) =>{
-//     pageName = 'home'
-//     redirect(pageName);
-// });
 
 export default picCategory;

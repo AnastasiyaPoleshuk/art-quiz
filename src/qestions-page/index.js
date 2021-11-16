@@ -56,6 +56,15 @@ function showTime() {
 
 window.addEventListener('DOMContentLoaded', showTime)
 
+const nextQestion = qestionsPage.querySelector('.next-qestion');
+
+nextQestion.addEventListener('click', (pageName) =>{
+    pageName = 'artCategory'
+    redirect(pageName);
+});
+
+
+
 export default qestionsPage;
 
 function getRandomArbitrary(min, max) {

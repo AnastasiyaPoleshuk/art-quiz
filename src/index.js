@@ -1,12 +1,9 @@
 import './index.scss';
 import home from "./home"
 import settings from "./settings"
-<<<<<<< HEAD
 import artCategory from "./art-categories"
 import picCategory from "./pic-categories"
 import qestionsPage from "./qestions-page"
-=======
->>>>>>> 51046672738936db727ad06c3f49fef5ae7c9385
 
 const root = document.querySelector('.root');
 root.append(home);
@@ -24,7 +21,6 @@ export default function(page){
         case 'settings':
             root.append(settings);
             break;
-<<<<<<< HEAD
         case 'artCategory':
             root.append(artCategory);
             break;
@@ -34,7 +30,5 @@ export default function(page){
         case 'qestions':
             root.append(qestionsPage);
             break;
-=======
->>>>>>> 51046672738936db727ad06c3f49fef5ae7c9385
     }
 }

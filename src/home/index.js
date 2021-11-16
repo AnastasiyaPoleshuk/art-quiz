@@ -18,7 +18,6 @@ button.append(txt);
 
 home.appendChild(button);
 
-<<<<<<< HEAD
 // function getPageName(){
 //     let pageName = 'settings';
 //     redirect(pageName);
@@ -49,13 +48,3 @@ picQuiz.addEventListener('click', () =>{
 
 export default home;
 
-=======
-function getPageName(){
-    let pageName = 'settings';
-    redirect(pageName);
-}
-
-button.addEventListener('click', getPageName);
-
-export default home;
->>>>>>> 51046672738936db727ad06c3f49fef5ae7c9385
